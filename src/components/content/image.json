@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_content_images",
+  "info": {
+    "displayName": "Image"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "caption": {
+      "type": "string"
+    },
+    "altText": {
+      "type": "string",
+      "required": true
+    },
+    "width": {
+      "type": "enumeration",
+      "default": "normal",
+      "enum": [
+        "full",
+        "wide",
+        "normal"
+      ]
+    }
+  },
+  "config": {}
+}

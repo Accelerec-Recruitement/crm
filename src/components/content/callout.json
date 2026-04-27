@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_content_callouts",
+  "info": {
+    "displayName": "Callout"
+  },
+  "options": {},
+  "attributes": {
+    "variant": {
+      "type": "enumeration",
+      "default": "note",
+      "enum": [
+        "note",
+        "important",
+        "tip",
+        "warning",
+        "danger",
+        "success"
+      ]
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}
