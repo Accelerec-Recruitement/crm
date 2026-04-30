@@ -54,11 +54,11 @@ export interface ContentStep extends Struct.ComponentSchema {
 export interface ContentVideoEmbed extends Struct.ComponentSchema {
   collectionName: 'components_content_video_embeds';
   info: {
-    displayName: 'Video Embed';
+    displayName: 'Video';
   };
   attributes: {
     caption: Schema.Attribute.String;
-    videoId: Schema.Attribute.String & Schema.Attribute.Required;
+    video: Schema.Attribute.Media<'files' | 'videos', true>;
   };
 }
 
